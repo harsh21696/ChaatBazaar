@@ -3743,3 +3743,20 @@ body.dark .hero-content p {
     transition: none !important;
   }
 }
+
+.password-toggle-btn {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: var(--text-muted, #888);
+}
+.password-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
